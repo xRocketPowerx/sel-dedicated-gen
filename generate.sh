@@ -2,7 +2,7 @@
 
 set -exo pipefail
 
-if [[ -z ${DESTINATION} ]]; then
+if [[ -z "${DESTINATION}" ]]; then
   >&2 echo "\$DESTINATION env variable not set"
   exit 1
 else 
